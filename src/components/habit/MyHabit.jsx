@@ -41,7 +41,7 @@ const StyledCardModal = styled.div`
   button {
     padding: 5px 7px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     width: 80%;
   }
 `;
