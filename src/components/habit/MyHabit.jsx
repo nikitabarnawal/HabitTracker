@@ -25,8 +25,8 @@ const close = (
 );
 
 const StyledCardModal = styled.div`
-  height: 500px;
-  width: 700px;
+  height: 60%;
+  width: 80%;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
   display: flex;
@@ -34,14 +34,10 @@ const StyledCardModal = styled.div`
   background-color: white;
   border-radius: 4px;
   position: absolute;
-  top: 10%;
-  left: 35%;
-  @media (min-width: 360px) and (max-width: 768px) {
-    top: 15%;
-    left: 10%;
-    width: 80%;
-    height: auto;
-  }
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px;
   button {
     padding: 5px 7px;
   }
@@ -64,8 +60,8 @@ const StyledHeader = styled.header`
 
 const StyledBody = styled.div`
   padding: 30px;
-  @media (max-width: 360px) {
-    padding: 12px 0 0 5px;
+  @media (min-width: 360px) and (max-width: 430px) {
+    padding: 12px 0 0 10px;
   }
 `;
 

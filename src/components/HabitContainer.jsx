@@ -10,8 +10,8 @@ import Navbar from "./Navbar";
 const StyledBodyContainer = styled.div`
   display: flex;
   min-height: 100vh;
-  @media (max-width: 375px) {
-    display: block;
+  @media (min-width: 320px) and (max-width: 767px) {
+    flex-direction: column;
   }
 `;
 

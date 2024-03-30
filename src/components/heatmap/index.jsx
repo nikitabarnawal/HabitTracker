@@ -20,10 +20,14 @@ const ResponsiveHeatMap = styled(HeatMap)`
   @media (max-width: 768px) {
     width: 500px;
   }
-  @media (max-width: 320px) {
-    width: 260px;
+  @media (min-width: 412px) and (max-width: 430px) {
+    width: 400px;
   }
-  @media (min-width: 360px) and (max-width: 425px) {
+  @media (max-width: 390px) {
+    width: 350px;
+  }
+
+  @media (min-width: 320px) and (max-width: 359px) {
     width: 300px;
   }
   @media (min-width: 1450px) and (max-width: 2560px) {

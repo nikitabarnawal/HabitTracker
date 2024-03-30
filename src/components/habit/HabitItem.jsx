@@ -16,6 +16,9 @@ const StyledListItem = styled.li`
   width: 80%;
   padding: 3px;
   margin-left: 20px;
+  @media (min-width: 320px) and (max-width: 768px) {
+    margin-left: 10px;
+  }
 `;
 
 const StyledEditTask = styled.span`
