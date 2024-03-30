@@ -26,7 +26,7 @@ const close = (
 
 const StyledCardModal = styled.div`
   height: 60%;
-  width: 80%;
+  width: 40%;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
   display: flex;
@@ -40,6 +40,9 @@ const StyledCardModal = styled.div`
   padding: 5px;
   button {
     padding: 5px 7px;
+  }
+  @media (max-width: 768px) {
+    width: 80%;
   }
 `;
 
